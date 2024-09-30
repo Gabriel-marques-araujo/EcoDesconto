@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#09A22A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".segunda_tela">
+
+        <TextView
+            android:id="@+id/text_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#8BC34A"
+            android:fontFamily="@font/agbalumo"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="preencha as informações"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="Nome"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/nome_info"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/nome_info"
+            android:inputType="text" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/tipo_end1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="Rua"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/tipo_end2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avenida"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="Endereço"
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/info_endereco"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/info_endereco"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/endnumer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/info_endnumber"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/endercomp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/info_endercomp"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/info_cep"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/info_cep"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="Informe o Tipo de Material"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/type_papel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papel"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/type_plast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plástico"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/type_metal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Metal"
+            android:textSize="25sp" />
+
+        <CheckBox
+            android:id="@+id/type_glass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vidro"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/info_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/info_tipo"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="Defina a Quantidade (Kg) "
+            android:textSize="28sp" />
+
+        <EditText
+            android:id="@+id/info_quant"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:hint="@string/info_qaunt"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="Conta Para Desconto"
+            android:textSize="28sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/water"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:text="Água"
+                android:textSize="25sp" />
+
+            <CheckBox
+                android:id="@+id/energy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Energia"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+
+
+        <!-- Resultado Final -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black"
+            android:layout_marginBottom="0dp"/>
+
+        <TextView
+            android:id="@+id/text_resfinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:background="#8BC34A"
+            android:fontFamily="@font/agbalumo"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Resultado"
+            android:textColor="@color/black"
+            android:textSize="32sp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@color/black"/>
+
+
+        <TextView
+            android:id="@+id/res_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="@string/res_info"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/res_final"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="@string/res_final"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_calcular"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#8BC34A"
+            android:fontFamily="@font/archivo_black"
+            android:padding="16dp"
+            android:text="@string/bt_calcular"
+            android:textColor="@color/black"
+            android:textAllCaps="true"
+            android:textSize="26sp" />
+
+        <Button
+            android:id="@+id/bt_novamente"
+            android:text="@string/bt_novamente"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:padding="16dp"
+            android:textAllCaps="true"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#8BC34A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

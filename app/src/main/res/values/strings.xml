@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EcoDesconto</string>
+    <string name="nome_info">Insira Seu Nome</string>
+    <string name="info_endereco">Informe Seu Endereço</string>
+    <string name="info_endnumber">Informe o Numero da Casa</string>
+    <string name="info_endercomp">Informe o Complemento</string>
+    <string name="info_cep">CEP</string>
+    <string name="info_tipo">Especifique o Material</string>
+    <string name="info_qaunt">Informe a Quantidade</string>
+    <string name="info_option">Especifique a Conta de Desconto</string>
+    <string name="res_info"> O Valor Total do Desconto Será:</string>
+    <string name="res_final"> R$  0</string>
+    <string name="bt_calcular"> Calcular</string>
+    <string name="bt_novamente"> Fazer Novamete</string>
+
+
+</resources>
