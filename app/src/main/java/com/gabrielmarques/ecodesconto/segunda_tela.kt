@@ -136,10 +136,10 @@ class segunda_tela : AppCompatActivity(){
 
         // Cálculo do desconto
         val valorDesconto = when (tipoMaterial) {
-            "papel" -> quantidade * 0.30f // Exemplo: 0.1 por kg
-            "plástico" -> quantidade * 1.10f // Exemplo: 0.15 por kg
-            "metal" -> quantidade * 5.50f // Exemplo: 0.2 por kg
-            "vidro" -> quantidade * 0.50 // Exemplo: 0.25 por kg
+            "papel" -> quantidade * 0.30f // Exemplo: 0.30 por kg
+            "plástico" -> quantidade * 1.10f // Exemplo: 1.10 por kg
+            "metal" -> quantidade * 5.50f // Exemplo: 5.50 por kg
+            "vidro" -> quantidade * 0.50 // Exemplo: 0.50 por kg
             else -> 0.0
 
 
