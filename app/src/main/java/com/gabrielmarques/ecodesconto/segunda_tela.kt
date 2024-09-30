@@ -168,6 +168,9 @@ class segunda_tela : AppCompatActivity(){
             // Limpar os campos se houver algo preenchido
             binding.nomeInfo.text.clear()
             binding.infoEndereco.text.clear()
+            binding.endnumer.text.clear()
+            binding.endercomp.text.clear()
+            binding.infoCep.text.clear()
             binding.infoQuant.text.clear()
 
             // Limpar os CheckBoxes
